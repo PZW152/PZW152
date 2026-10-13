@@ -24,7 +24,7 @@
 | --- | --- |
 | 軟體在地化 | zh-TW 台灣用語規範、OpenCC `s2twp` 轉換、語系檔補齊與去重、新舊條目並存不覆寫 |
 | 翻譯管線 | DeepL / Google / AI 供應商整合、語言碼對照（source 與 target 的變體規則不同）、批次容錯、錯誤訊息可見化 |
-| 開發 | Rust、TypeScript、C#、C++（CMake）、Git / GitHub Actions |
+| 開發 | Rust（Win32 / egui）、TypeScript、C#、C++（CMake）、Git / GitHub Actions |
 
 ## 📦 自己的專案
 
@@ -32,7 +32,8 @@
 
 <img src="https://img.shields.io/github/v/release/PZW152/WindowCaptureGuard?style=flat-square&label=release&color=2ea44f" alt="Release" />
 <img src="https://img.shields.io/github/license/PZW152/WindowCaptureGuard?style=flat-square" alt="License" />
-<img src="https://img.shields.io/github/languages/top/PZW152/WindowCaptureGuard?style=flat-square" alt="Language" />
+<img src="https://img.shields.io/badge/Rust-2021-000000?style=flat-square&logo=rust" alt="Rust" />
+<img src="https://img.shields.io/badge/GUI-egui-5B8CFF?style=flat-square" alt="egui" />
 <img src="https://img.shields.io/badge/Windows-10%202004%2B-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows" />
 
 在 Windows 上把指定的應用程式從螢幕擷取中隱藏（OBS、Teams、Zoom、系統截圖），但自己畫面上仍正常顯示 ——
@@ -44,9 +45,15 @@ Windows 的 `SetWindowDisplayAffinity` 只允許「擁有該視窗的行程」�
 ```mermaid
 flowchart LR
     A["開啟目標行程<br/>OpenProcess"] --> B["在目標內配置並寫入記憶體<br/>VirtualAllocEx + WriteProcessMemory"]
-    B --> C["建立遠端執行緒<br/>執行約 40 bytes 機器碼"]
-    C --> D["目標自己呼叫<br/>SetWindowDisplayAffinity"]
+    B --> C["程式碼頁改成唯讀可執行<br/>VirtualProtectEx（W^X）"]
+    C --> D["建立遠端執行緒<br/>執行手寫 x64／x86 機器碼"]
+    D --> E["目標自己呼叫<br/>SetWindowDisplayAffinity"]
+    E --> F["讀回每個視窗的結果<br/>ReadProcessMemory"]
 ```
+
+2026-10 從 C# / WinForms **整個重寫成 Rust**：手寫注入酬載改用單一遠端執行緒處理多個視窗、
+參數區與程式碼分頁（W^X）、明確校正堆疊對齊；介面改成自繪的 egui，含深淺主題、
+自繪標題列與內嵌 Inter / Noto Sans TC 字型。
 
 單一免安裝 `.exe`、內建繁體中文／简体中文／English 介面、支援 64 與 32 位元應用。
 
