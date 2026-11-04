@@ -18,8 +18,8 @@
 
 <p align="center">
   <img src="assets/ai/codex.svg" alt="AI 協作：Codex">
-  <img src="https://img.shields.io/badge/AI-Claude-bb9af7?style=for-the-badge&amp;logo=claude&amp;logoColor=white" alt="AI 協作：Claude">
-  <img src="https://img.shields.io/badge/AI-DeepSeek%20Harness-7dcfff?style=for-the-badge&amp;logo=deepseek&amp;logoColor=white" alt="AI 協作：DeepSeek Harness">
+  <img src="https://img.shields.io/badge/AI-Claude-D97757?style=for-the-badge&amp;logo=claude&amp;logoColor=white" alt="AI 協作：Claude">
+  <img src="https://img.shields.io/badge/AI-DeepSeek%20Harness-4D6BFE?style=for-the-badge&amp;logo=deepseek&amp;logoColor=white" alt="AI 協作：DeepSeek Harness">
 </p>
 
 ### 🧰 專案使用的技術
