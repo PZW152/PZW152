@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PZW152/PZW152/main/assets/header.svg?v=wishlab" width="100%" alt="PZW152 許願編程實驗室：先許個願，再把它做出來。">
+  <img src="https://raw.githubusercontent.com/PZW152/PZW152/6c038d5c9b4b371cf451dad9d4ec5b244497f6ff/assets/header.svg" width="100%" alt="PZW152 許願編程實驗室：先許個願，再把它做出來。">
 </p>
 
 <p align="center">
