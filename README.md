@@ -1,36 +1,26 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="PZW152 — Ideas into tools, with AI. Codex / Claude / DeepSeek Harness">
+  <img src="https://raw.githubusercontent.com/PZW152/PZW152/main/assets/header.svg?v=wishlab" width="100%" alt="PZW152 許願編程實驗室：先許個願，再把它做出來。">
 </p>
 
 <p align="center">
-  <a href="https://github.com/PZW152?tab=repositories"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=19&amp;duration=3000&amp;pause=1200&amp;color=7AA2F7&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=A+beginner+building+with+AI;Codex+%2F+Claude+%2F+DeepSeek+Harness;Turning+ideas+into+Windows+tools." alt="A beginner building with AI: Codex, Claude and DeepSeek Harness"></a>
+  <b>沒有程式設計背景，只有想做的東西。</b><br>
+  主要靠 Codex、Claude 與 DeepSeek Harness「許願編程」，<br>
+  把想做的功能說出來，讓 AI 協助把想法變成工具。
 </p>
 
 <p align="center">
-  <b>程式小白的 AI 許願編程實驗室</b><br>
-  沒有程式設計或相關技術的知識基礎，主要靠<br><b>Codex、Claude 與 DeepSeek Harness</b> 進行「許願編程」。<br>把想做的功能說出來，讓 AI 協助把想法變成工具。<br><br>
-  <a href="https://github.com/PZW152?tab=repositories">所有專案</a> &nbsp; / &nbsp;
-  <a href="https://github.com/PZW152/obs-kaibo/releases/latest">Kaibo 下載</a> &nbsp; / &nbsp;
-  <a href="https://github.com/PZW152/one-click-eu-lord/releases/latest">歐爺下載</a>
+  <a href="https://github.com/PZW152?tab=repositories">探索專案</a> &nbsp; / &nbsp;
+  <a href="https://github.com/PZW152/obs-kaibo/releases/latest">下載 Kaibo</a> &nbsp; / &nbsp;
+  <a href="https://github.com/PZW152/one-click-eu-lord/releases/latest">下載一鍵轉生歐爺</a>
 </p>
 
-### 🤖 AI 協作工具
+## 許願用的工具
 
 <p align="center">
-  <img src="assets/ai/codex.svg?v=brand" alt="AI 協作：Codex">
-  <img src="https://img.shields.io/badge/AI-Claude-D97757?style=for-the-badge&amp;logo=claude&amp;logoColor=white" alt="AI 協作：Claude">
-  <img src="https://img.shields.io/badge/AI-DeepSeek%20Harness-4D6BFE?style=for-the-badge&amp;logo=deepseek&amp;logoColor=white" alt="AI 協作：DeepSeek Harness">
+  <img src="https://raw.githubusercontent.com/PZW152/PZW152/main/assets/ai-tools.svg" width="100%" alt="AI 協作工具：Codex（OpenAI 黑白）、Claude（Anthropic 暖橘）、DeepSeek Harness（藍色）">
 </p>
 
-### 🧰 專案使用的技術
-
-<p align="center"><sub>以下圖示代表專案用到的技術，不代表本人已熟練掌握。</sub></p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,cpp,windows,cmake,git,github,githubactions&amp;theme=dark" alt="Rust, C++, Windows, CMake, Git, GitHub, GitHub Actions">
-</p>
-
-### 🚀 精選專案
+## 想法落地的地方
 
 <table>
 <tr>
@@ -46,8 +36,8 @@
 
 `C++` `OBS Studio` `Windows`
 
-<a href="https://github.com/PZW152/obs-kaibo/releases/latest"><img src="https://img.shields.io/github/v/release/PZW152/obs-kaibo?style=flat-square&amp;label=release&amp;color=7aa2f7" alt="Kaibo 最新版本"></a>
-<a href="https://github.com/PZW152/obs-kaibo"><img src="https://img.shields.io/github/stars/PZW152/obs-kaibo?style=flat-square&amp;label=stars&amp;color=bb9af7" alt="Kaibo GitHub stars"></a>
+<a href="https://github.com/PZW152/obs-kaibo/releases/latest"><img src="https://img.shields.io/github/v/release/PZW152/obs-kaibo?style=flat-square&amp;label=release&amp;color=d97757" alt="Kaibo 最新版本"></a>
+<a href="https://github.com/PZW152/obs-kaibo"><img src="https://img.shields.io/github/stars/PZW152/obs-kaibo?style=flat-square&amp;label=stars&amp;color=7dcfff" alt="Kaibo GitHub stars"></a>
 
 </td>
 <td width="50%" valign="top">
@@ -62,14 +52,21 @@
 
 `Rust` `Windows 11` `EU / EEA`
 
-<a href="https://github.com/PZW152/one-click-eu-lord/releases/latest"><img src="https://img.shields.io/github/v/release/PZW152/one-click-eu-lord?style=flat-square&amp;label=release&amp;color=7aa2f7" alt="一鍵轉生歐爺最新版本"></a>
-<a href="https://github.com/PZW152/one-click-eu-lord"><img src="https://img.shields.io/github/stars/PZW152/one-click-eu-lord?style=flat-square&amp;label=stars&amp;color=bb9af7" alt="一鍵轉生歐爺 GitHub stars"></a>
+<a href="https://github.com/PZW152/one-click-eu-lord/releases/latest"><img src="https://img.shields.io/github/v/release/PZW152/one-click-eu-lord?style=flat-square&amp;label=release&amp;color=d97757" alt="一鍵轉生歐爺最新版本"></a>
+<a href="https://github.com/PZW152/one-click-eu-lord"><img src="https://img.shields.io/github/stars/PZW152/one-click-eu-lord?style=flat-square&amp;label=stars&amp;color=7dcfff" alt="一鍵轉生歐爺 GitHub stars"></a>
 
 </td>
 </tr>
 </table>
 
-### 📊 GitHub 活動
+## 這些專案用到了什麼
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,cpp,windows,cmake,git,github,githubactions&amp;theme=dark" alt="專案使用 Rust、C++、Windows、CMake、Git、GitHub 與 GitHub Actions">
+</p>
+<p align="center"><sub>這是專案的技術組成，不是我的技能熟練度清單。</sub></p>
+
+## 開源足跡
 
 <p align="center">
   <a href="https://github.com/PZW152?tab=overview"><img src="https://raw.githubusercontent.com/PZW152/PZW152/main/profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="PZW152 的 GitHub 貢獻活動圖"></a>
@@ -79,7 +76,7 @@
 
 <p align="center"><sub>圖卡每日自動更新；語言分布反映專案組成，不代表技能熟練度。</sub></p>
 
-### 🐍 貢獻軌跡
+### 讓貪吃蛇走過這一年的貢獻
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PZW152/PZW152/main/assets/contributions/snake-dark.svg">

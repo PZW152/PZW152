@@ -1,11 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title">
-<title id="title">PZW152 — A beginner turning ideas into tools with AI.</title>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#151b35"/><stop offset="1" stop-color="#242044"/></linearGradient><linearGradient id="accent"><stop stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#7aa2f7" stroke-opacity=".08"/></pattern></defs>
-<rect width="1200" height="280" rx="20" fill="url(#bg)"/><rect width="1200" height="280" rx="20" fill="url(#grid)"/>
-<path d="M0 276H1200" stroke="url(#accent)" stroke-width="4"/>
-<g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".4"><path d="M740 0L1020 280M860 0L1140 280M980 0L1200 220"/><circle cx="1000" cy="140" r="100"/><circle cx="1000" cy="140" r="120" stroke-dasharray="4 12"/></g>
-<text x="64" y="128" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-4">PZW152<tspan fill="#7aa2f7">.</tspan></text>
-<text x="69" y="178" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="23">Ideas into tools, with AI.</text>
-<text x="69" y="230" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="17">Codex / Claude / DeepSeek Harness</text>
-<g fill="none" stroke="url(#accent)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M971 102L932 140L971 178M1030 102L1069 140L1030 178M1011 95L990 185"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">PZW152 — 先許個願，再把它做出來。</title>
+<desc id="desc">沒有程式設計背景，以 Codex、Claude 和 DeepSeek Harness 把想法變成工具。</desc>
+<defs><linearGradient id="wash" x2="1" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#171d30"/></linearGradient><linearGradient id="line"><stop stop-color="#d97757"/><stop offset=".5" stop-color="#8fc7ff"/><stop offset="1" stop-color="#4d6bfe"/></linearGradient></defs>
+<style>text{font-family:'Segoe UI','Microsoft JhengHei',Arial,sans-serif}.flow{stroke-dasharray:5 11;animation:flow 6s linear infinite}@keyframes flow{to{stroke-dashoffset:-96}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}</style>
+<rect width="1200" height="420" rx="24" fill="url(#wash)"/>
+<path d="M26 1H1174" stroke="url(#line)" stroke-width="2"/>
+<text x="54" y="66" font-size="29" font-weight="700" fill="#ecf2ff">PZW152<tspan fill="#d97757"> / </tspan><tspan font-weight="400" font-size="21" fill="#a8b5cb">許願編程實驗室</tspan></text>
+<text x="52" y="181" font-size="78" font-weight="700" fill="#ecf2ff" letter-spacing="-3">先許個願，</text>
+<text x="52" y="278" font-size="78" font-weight="700" fill="#a8c9ff" letter-spacing="-3">再把它做出來。</text>
+<text x="57" y="359" font-size="22" fill="#a8b5cb">A beginner. Three AI tools. Real projects.</text>
+<path d="M767 75V347" stroke="#36425a"/>
+<rect x="821" y="89" width="326" height="65" rx="12" fill="#202b40" stroke="#3b4d68"/>
+<circle cx="849" cy="121" r="5" fill="#d97757"/>
+<text x="869" y="130" font-size="23" fill="#e1e8f5">「我想要一個工具」</text>
+<path class="flow" d="M984 154V193" stroke="#93b4e9" stroke-width="2" fill="none"/>
+<rect x="866" y="193" width="236" height="58" rx="29" fill="#26324b" stroke="#7e9ac5"/>
+<text x="984" y="230" font-size="24" fill="#ecf2ff" text-anchor="middle">AI 協作</text>
+<path class="flow" d="M984 251V277H890V302M984 277H1080V302" stroke="url(#line)" stroke-width="2" fill="none"/>
+<rect x="811" y="302" width="160" height="60" rx="12" fill="#30232b" stroke="#a5546b"/>
+<text x="891" y="340" font-size="23" fill="#ffb2c7" text-anchor="middle">Kaibo 開播</text>
+<rect x="994" y="302" width="168" height="60" rx="12" fill="#1c2c2d" stroke="#477f73"/>
+<text x="1078" y="340" font-size="23" fill="#a4ddc8" text-anchor="middle">一鍵轉生歐爺</text>
 </svg>
