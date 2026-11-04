@@ -62,9 +62,9 @@
 ### 📊 GitHub 活動
 
 <p align="center">
-  <a href="https://github.com/PZW152?tab=overview"><img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="PZW152 的 GitHub 貢獻活動圖"></a>
-  <img src="profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub 統計：stars、commits、pull requests、issues 與 contributions">
-  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="公開專案的語言分布，依使用該語言的倉庫數統計">
+  <a href="https://github.com/PZW152?tab=overview"><img src="https://raw.githubusercontent.com/PZW152/PZW152/main/profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="PZW152 的 GitHub 貢獻活動圖"></a>
+  <img src="https://raw.githubusercontent.com/PZW152/PZW152/main/profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub 統計：stars、commits、pull requests、issues 與 contributions">
+  <img src="https://raw.githubusercontent.com/PZW152/PZW152/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="公開專案的語言分布，依使用該語言的倉庫數統計">
 </p>
 
 <p align="center"><sub>圖卡每日自動更新；語言分布反映專案組成，不代表技能熟練度。</sub></p>
@@ -72,9 +72,9 @@
 ### 🐍 貢獻軌跡
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/snake.svg">
-  <img src="assets/contributions/snake-dark.svg" width="100%" alt="貪吃蛇沿著 PZW152 的 GitHub 年度貢獻格移動">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PZW152/PZW152/main/assets/contributions/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PZW152/PZW152/main/assets/contributions/snake.svg">
+  <img src="https://raw.githubusercontent.com/PZW152/PZW152/main/assets/contributions/snake-dark.svg" width="100%" alt="貪吃蛇沿著 PZW152 的 GitHub 年度貢獻格移動">
 </picture>
 
 <p align="center">
