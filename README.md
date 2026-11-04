@@ -1,38 +1,82 @@
-# PZW152
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="PZW152 — Windows tools. Built to be useful. Rust / C++ / Open source">
+</p>
 
-> 把實際需求做成可靠、易用、設計用心的軟體。  
-> **Practical software · Thoughtful engineering · Deliberate interfaces**
+<p align="center">
+  <a href="https://github.com/PZW152?tab=repositories"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=19&amp;duration=3000&amp;pause=1200&amp;color=7AA2F7&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Building+Windows+tools+with+Rust+%26+C%2B%2B;From+OBS+plugins+to+Windows+utilities;Practical+software.+Thoughtful+interfaces." alt="Building Windows tools with Rust and C++; OBS plugins and Windows utilities"></a>
+</p>
 
-我主要製作 Windows 桌面工具與實用型開源專案。比起堆砌功能或追逐技術名詞，我更在意程式是否可靠、結構是否清楚、後續是否容易維護，以及介面是否真正好用。
+<p align="center">
+  <b>Windows 桌面工具 · OBS 外掛 · 開源實作</b><br>
+  把日常用得到的功能，做成操作直接、介面用心的工具。<br><br>
+  <a href="https://github.com/PZW152?tab=repositories">所有專案</a> &nbsp; / &nbsp;
+  <a href="https://github.com/PZW152/obs-kaibo/releases/latest">Kaibo 下載</a> &nbsp; / &nbsp;
+  <a href="https://github.com/PZW152/one-click-eu-lord/releases/latest">歐爺下載</a>
+</p>
 
-## 精選專案 | Featured Projects
+### 🧰 專案使用的技術
 
-### [Aphelion](https://github.com/PZW152/Aphelion)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,cpp,windows,cmake,git,github,githubactions&amp;theme=dark" alt="Rust, C++, Windows, CMake, Git, GitHub, GitHub Actions">
+</p>
 
-面向 Windows 的 Minecraft: Java Edition 啟動器，以 NASA-punk 任務控制台為視覺方向，兼顧實例管理、模組安裝、帳號管理與啟動診斷。
+### 🚀 精選專案
 
-- **技術：** C#、.NET 10、WinForms、WebView2、Svelte 5
-- **狀態：** Preview
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### [Kaibo 開播](https://github.com/PZW152/obs-kaibo)
+#### [Kaibo 開播](https://github.com/PZW152/obs-kaibo)
 
-OBS Studio 停靠面板，讓使用者直接在 OBS 內管理 Bilibili 直播流程，包括登入、直播資訊同步、推流設定，以及開播與關播。提供簡體中文、繁體中文及英文介面。
+<a href="https://github.com/PZW152/obs-kaibo"><img src="https://raw.githubusercontent.com/PZW152/obs-kaibo/main/docs/images/dock-design.png" alt="Kaibo OBS 停靠面板的深色與淺色介面設計稿" width="100%"></a>
 
-### [一鍵轉生歐爺](https://github.com/PZW152/one-click-eu-lord)
+**在 OBS 裡，一鍵開播 Bilibili。**
 
-Windows 11 工具，整理 EEA 相關區域策略，提供差異檢視、套用、狀態驗證與還原流程；設計目標是在取得所需功能的同時，盡可能保留原有 Windows 功能。
+掃碼登入、修改標題與分區、自動設定推流，以及斷流提醒。提供簡中、繁中與英文介面。
 
-## 工程取向 | Engineering Principles
+`C++` `OBS Studio` `Windows`
 
-- **正確性優先：** 重視錯誤處理、邊界條件、狀態驗證與可恢復性。
-- **簡潔且可維護：** 採用適當的架構與清晰的文件結構，不為抽象而抽象。
-- **整體品質：** 一併考慮資訊安全、效能、相容性、可測試性與使用者體驗。
-- **重視設計：** 介面不只要能操作，也應具備清楚的資訊層次、一致的視覺語言與恰當的動效。
+<a href="https://github.com/PZW152/obs-kaibo/releases/latest"><img src="https://img.shields.io/github/v/release/PZW152/obs-kaibo?style=flat-square&amp;label=release&amp;color=7aa2f7" alt="Kaibo 最新版本"></a>
+<a href="https://github.com/PZW152/obs-kaibo"><img src="https://img.shields.io/github/stars/PZW152/obs-kaibo?style=flat-square&amp;label=stars&amp;color=bb9af7" alt="Kaibo GitHub stars"></a>
 
-## 目前關注 | Current Focus
+</td>
+<td width="50%" valign="top">
 
-Windows 桌面軟體、系統整合、安裝與更新流程、自動化測試，以及兼顧功能性與視覺品質的 UI/UX。現有專案涉及 **C# / .NET、WinForms、WebView2 與 Svelte 5** 等技術。
+#### [一鍵轉生歐爺](https://github.com/PZW152/one-click-eu-lord)
 
-## 開源交流 | Open Source
+<a href="https://github.com/PZW152/one-click-eu-lord"><img src="https://raw.githubusercontent.com/PZW152/one-click-eu-lord/main/docs/images/overview-v3.png" alt="一鍵轉生歐爺 v3 的 Windows 政策總覽介面" width="100%"></a>
 
-歡迎提出具體的問題回報與改進建議。回報時請盡量附上重現步驟、預期與實際行為，以及相關日誌；分享前請先移除 Token、Cookie、個人資料等敏感資訊。
+**Windows 11 的 EU/EEA 政策工具。**
+
+純 Rust 實作，提供政策差異檢視、選擇性套用、狀態驗證與還原，搭配復古未來風 GUI。
+
+`Rust` `Windows 11` `EU / EEA`
+
+<a href="https://github.com/PZW152/one-click-eu-lord/releases/latest"><img src="https://img.shields.io/github/v/release/PZW152/one-click-eu-lord?style=flat-square&amp;label=release&amp;color=7aa2f7" alt="一鍵轉生歐爺最新版本"></a>
+<a href="https://github.com/PZW152/one-click-eu-lord"><img src="https://img.shields.io/github/stars/PZW152/one-click-eu-lord?style=flat-square&amp;label=stars&amp;color=bb9af7" alt="一鍵轉生歐爺 GitHub stars"></a>
+
+</td>
+</tr>
+</table>
+
+### 📊 GitHub 活動
+
+<p align="center">
+  <a href="https://github.com/PZW152?tab=overview"><img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="PZW152 的 GitHub 貢獻活動圖"></a>
+  <img src="profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub 統計：stars、commits、pull requests、issues 與 contributions">
+  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="公開專案的語言分布，依使用該語言的倉庫數統計">
+</p>
+
+<p align="center"><sub>圖卡每日自動更新；語言分布反映專案組成，不代表技能熟練度。</sub></p>
+
+### 🐍 貢獻軌跡
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/snake.svg">
+  <img src="assets/contributions/snake-dark.svg" width="100%" alt="貪吃蛇沿著 PZW152 的 GitHub 年度貢獻格移動">
+</picture>
+
+<p align="center">
+  <sub>發現問題或有功能建議？歡迎到對應專案開 Issue。</sub>
+</p>

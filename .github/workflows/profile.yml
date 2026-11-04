@@ -1,0 +1,63 @@
+name: Refresh profile graphics
+
+on:
+  schedule:
+    - cron: '23 2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: false
+
+jobs:
+  graphics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Generate statistics cards
+        uses: vn7n24fzkq/github-profile-summary-cards@7022eb6bd48de38b092f54110a8ff8185f2ac4a1 # release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          AUTO_PUSH: false
+          THEME: tokyonight
+          TIME_ZONE: Asia/Taipei
+
+      - name: Generate contribution snakes
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/contributions/snake.svg?color_snake=%237aa2f7
+            assets/contributions/snake-dark.svg?palette=github-dark&color_snake=%23bb9af7
+
+      - name: Save updated graphics
+        run: |
+          test -s profile-summary-card-output/tokyonight/0-profile-details.svg
+          test -s profile-summary-card-output/tokyonight/1-repos-per-language.svg
+          test -s profile-summary-card-output/tokyonight/3-stats.svg
+          test -s assets/contributions/snake.svg
+          test -s assets/contributions/snake-dark.svg
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profile-summary-card-output assets/contributions
+          if git diff --cached --quiet; then
+            echo 'Graphics are already current.'
+            exit 0
+          fi
+          git commit -m 'chore: refresh profile graphics'
+          git pull --rebase origin main
+          git push origin HEAD:main
