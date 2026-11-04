@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title">
-<title id="title">PZW152 — Windows tools. Rust, C++ and open source.</title>
+<title id="title">PZW152 — A beginner turning ideas into tools with AI.</title>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#151b35"/><stop offset="1" stop-color="#242044"/></linearGradient><linearGradient id="accent"><stop stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#7aa2f7" stroke-opacity=".08"/></pattern></defs>
 <rect width="1200" height="280" rx="20" fill="url(#bg)"/><rect width="1200" height="280" rx="20" fill="url(#grid)"/>
 <path d="M0 276H1200" stroke="url(#accent)" stroke-width="4"/>
 <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".4"><path d="M740 0L1020 280M860 0L1140 280M980 0L1200 220"/><circle cx="1000" cy="140" r="100"/><circle cx="1000" cy="140" r="120" stroke-dasharray="4 12"/></g>
 <text x="64" y="128" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-4">PZW152<tspan fill="#7aa2f7">.</tspan></text>
-<text x="69" y="178" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="23">Windows tools. Built to be useful.</text>
-<text x="69" y="230" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="17">Rust / C++ / Open source</text>
+<text x="69" y="178" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="23">Ideas into tools, with AI.</text>
+<text x="69" y="230" fill="#7aa2f7" font-family="Segoe UI,Arial,sans-serif" font-size="17">Codex / Claude / DeepSeek Harness</text>
 <g fill="none" stroke="url(#accent)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M971 102L932 140L971 178M1030 102L1069 140L1030 178M1011 95L990 185"/></g>
 </svg>

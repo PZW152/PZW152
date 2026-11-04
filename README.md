@@ -1,20 +1,30 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="PZW152 — Windows tools. Built to be useful. Rust / C++ / Open source">
+  <img src="assets/header.svg" width="100%" alt="PZW152 — Ideas into tools, with AI. Codex / Claude / DeepSeek Harness">
 </p>
 
 <p align="center">
-  <a href="https://github.com/PZW152?tab=repositories"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=19&amp;duration=3000&amp;pause=1200&amp;color=7AA2F7&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Building+Windows+tools+with+Rust+%26+C%2B%2B;From+OBS+plugins+to+Windows+utilities;Practical+software.+Thoughtful+interfaces." alt="Building Windows tools with Rust and C++; OBS plugins and Windows utilities"></a>
+  <a href="https://github.com/PZW152?tab=repositories"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=19&amp;duration=3000&amp;pause=1200&amp;color=7AA2F7&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=A+beginner+building+with+AI;Codex+%2F+Claude+%2F+DeepSeek+Harness;Turning+ideas+into+Windows+tools." alt="A beginner building with AI: Codex, Claude and DeepSeek Harness"></a>
 </p>
 
 <p align="center">
-  <b>Windows 桌面工具 · OBS 外掛 · 開源實作</b><br>
-  把日常用得到的功能，做成操作直接、介面用心的工具。<br><br>
+  <b>程式小白的 AI 許願編程實驗室</b><br>
+  沒有程式設計或相關技術的知識基礎，主要靠<br><b>Codex、Claude 與 DeepSeek Harness</b> 進行「許願編程」。<br>把想做的功能說出來，讓 AI 協助把想法變成工具。<br><br>
   <a href="https://github.com/PZW152?tab=repositories">所有專案</a> &nbsp; / &nbsp;
   <a href="https://github.com/PZW152/obs-kaibo/releases/latest">Kaibo 下載</a> &nbsp; / &nbsp;
   <a href="https://github.com/PZW152/one-click-eu-lord/releases/latest">歐爺下載</a>
 </p>
 
+### 🤖 AI 協作工具
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Codex-7aa2f7?style=for-the-badge" alt="AI 協作：Codex">
+  <img src="https://img.shields.io/badge/AI-Claude-bb9af7?style=for-the-badge" alt="AI 協作：Claude">
+  <img src="https://img.shields.io/badge/AI-DeepSeek%20Harness-7dcfff?style=for-the-badge" alt="AI 協作：DeepSeek Harness">
+</p>
+
 ### 🧰 專案使用的技術
+
+<p align="center"><sub>以下圖示代表專案用到的技術，不代表本人已熟練掌握。</sub></p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=rust,cpp,windows,cmake,git,github,githubactions&amp;theme=dark" alt="Rust, C++, Windows, CMake, Git, GitHub, GitHub Actions">
