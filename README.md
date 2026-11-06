@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/PZW152?tab=repositories"><img src="https://img.shields.io/github/stars/PZW152?affiliations=OWNER&style=for-the-badge&label=%E7%B4%AF%E8%A8%88%E6%98%9F%E6%98%9F&color=2F9E5B&labelColor=14261D" alt="累計星星"></a>
+  <a href="https://github.com/PZW152?tab=repositories"><img src="https://img.shields.io/github/stars/PZW152?style=for-the-badge&labelColor=14261D&color=2F9E5B&affiliations=OWNER&label=%E7%B4%AF%E8%A8%88%E6%98%9F%E6%98%9F" alt="累計星星"></a>
   <a href="https://pzw152.github.io/sapling/"><img src="https://img.shields.io/badge/%E4%BD%9C%E5%93%81%E5%AE%98%E7%B6%B2-Sapling-2F9E5B?style=for-the-badge&labelColor=14261D" alt="作品官網：Sapling"></a>
 </p>
 
@@ -42,7 +42,7 @@
 
 ### [Kaibo 開播](https://github.com/PZW152/obs-kaibo)
 
-<a href="https://github.com/PZW152/obs-kaibo"><img src="https://raw.githubusercontent.com/PZW152/obs-kaibo/main/docs/images/dock-design.png" alt="Kaibo 的 OBS 停靠面板"></a>
+<a href="https://github.com/PZW152/obs-kaibo"><img src="https://raw.githubusercontent.com/PZW152/obs-kaibo/main/docs/images/dock.png" alt="Kaibo 的 OBS 停靠面板"></a>
 
 **在 OBS 裡一鍵開播 Bilibili。** 掃碼登入、修改標題與分區、自動設定推流、斷流提醒。
 
