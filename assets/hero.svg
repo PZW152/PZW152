@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">PZW152：先許個願，再把它做出來。</title>
+<desc id="desc">沒有程式設計背景，用 AI 把想法做成真的有人在用的工具：Sapling Launcher、一鍵轉生歐爺、Kaibo 開播。</desc>
+<style>
+  text { font-family: 'Segoe UI Variable Display', 'Segoe UI', 'PingFang TC', 'Microsoft JhengHei', sans-serif; }
+  .mono { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Microsoft JhengHei', monospace; font-size: 19px; }
+  .step { opacity: 0; animation: show 420ms ease-out forwards; }
+  .s1 { animation-delay: 0.3s; } .s2 { animation-delay: 1s; }
+  .s3 { animation-delay: 1.8s; } .s4 { animation-delay: 2.5s; }
+  .s5 { animation-delay: 3.3s; } .s6 { animation-delay: 4s; }
+  .caret { animation: blink 1.1s steps(1) infinite 4.4s; opacity: 0; }
+  @keyframes show { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    .step { animation: none; opacity: 1; }
+    .caret { animation: none; opacity: 1; }
+  }
+</style>
+<rect width="1200" height="420" rx="22" fill="#0d1a14"/>
+<path d="M60 420C60 300 112 176 210 124c20 130-32 234-150 296z" fill="#2f9e5b" opacity=".1"/>
+
+<text x="60" y="118" fill="#f1f6ef" font-size="84" font-weight="800" letter-spacing="-2">PZW152</text>
+<text x="62" y="186" fill="#f1f6ef" font-size="40" font-weight="700">先許個願，</text>
+<text x="62" y="238" fill="#8fdcaf" font-size="40" font-weight="700">再把它做出來。</text>
+<text x="62" y="306" fill="#a9beb1" font-size="21">沒有程式設計背景。</text>
+<text x="62" y="338" fill="#a9beb1" font-size="21">用 AI 把想法做成真的有人在用的工具。</text>
+
+<g transform="translate(540 52)">
+  <rect width="604" height="316" rx="14" fill="#14261d" stroke="#2c4638"/>
+  <circle cx="26" cy="26" r="6.5" fill="#e0695a"/>
+  <circle cx="48" cy="26" r="6.5" fill="#e3b341"/>
+  <circle cx="70" cy="26" r="6.5" fill="#3fb26f"/>
+  <text class="mono" x="302" y="32" fill="#7f9a8b" text-anchor="middle" style="font-size:15px">~/wishes</text>
+
+  <g class="step s1"><text class="mono" x="26" y="80"><tspan fill="#8fdcaf">$ wish</tspan><tspan fill="#f1f6ef"> "打開就能玩的 Minecraft 啟動器"</tspan></text></g>
+  <g class="step s2"><text class="mono" x="26" y="112"><tspan fill="#7f9a8b">  ✓ 已上線 </tspan><tspan fill="#f1f6ef" font-weight="700">Sapling Launcher</tspan></text></g>
+
+  <g class="step s3"><text class="mono" x="26" y="162"><tspan fill="#8fdcaf">$ wish</tspan><tspan fill="#f1f6ef"> "Windows 拿到歐盟版的好處"</tspan></text></g>
+  <g class="step s4"><text class="mono" x="26" y="194"><tspan fill="#7f9a8b">  ✓ 已上線 </tspan><tspan fill="#f1f6ef" font-weight="700">一鍵轉生歐爺</tspan></text></g>
+
+  <g class="step s5"><text class="mono" x="26" y="244"><tspan fill="#8fdcaf">$ wish</tspan><tspan fill="#f1f6ef"> "在 OBS 裡一鍵開播 Bilibili"</tspan></text></g>
+  <g class="step s6"><text class="mono" x="26" y="276"><tspan fill="#7f9a8b">  ✓ 已上線 </tspan><tspan fill="#f1f6ef" font-weight="700">Kaibo 開播</tspan></text></g>
+  <rect class="caret" x="238" y="261" width="11" height="20" fill="#8fdcaf"/>
+</g>
+</svg>
